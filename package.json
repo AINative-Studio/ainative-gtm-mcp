@@ -1,0 +1,72 @@
+{
+  "name": "@ainative/gtm-mcp",
+  "version": "0.4.0",
+  "description": "Google Tag Manager and Google Ads MCP server — manage GTM containers, Google Ads campaigns, budgets, conversions, negative placements, geo targeting, and auto-apply recommendations from AI agents",
+  "type": "module",
+  "bin": {
+    "ainative-gtm-mcp": "build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "gtm",
+    "google-tag-manager",
+    "google-ads",
+    "google-ads-mcp",
+    "google-ads-api",
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "analytics",
+    "tag-management",
+    "conversion-tracking",
+    "conversion-goals",
+    "campaign-budget",
+    "negative-placement",
+    "click-fraud",
+    "geo-targeting",
+    "auto-apply-recommendations",
+    "recommendation-subscriptions",
+    "smart-bidding",
+    "ppc",
+    "ad-spend",
+    "advertising-automation",
+    "ainative",
+    "google-analytics-mcp",
+    "ga4-mcp",
+    "gtm-mcp",
+    "performance-max",
+    "ppc-automation"
+  ],
+  "author": "AINative Studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AINative-Studio/ainative-gtm-mcp.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "google-ads-api": "^23.0.0",
+    "googleapis": "^144.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "homepage": "https://github.com/AINative-Studio/ainative-gtm-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/ainative-gtm-mcp/issues"
+  }
+}
