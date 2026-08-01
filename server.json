@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.ainative-studio/ainative-gtm-mcp",
+  "name": "io.github.AINative-Studio/ainative-gtm-mcp",
   "description": "Full Google Ads, Analytics & Tag Manager lifecycle MCP for AI agents — 57 tools.",
   "repository": {
     "url": "https://github.com/AINative-Studio/ainative-gtm-mcp",
     "source": "github"
   },
-  "version": "0.4.1",
+  "version": "0.4.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ainative/gtm-mcp",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "transport": {
         "type": "stdio"
       },
