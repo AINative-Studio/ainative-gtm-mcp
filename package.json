@@ -1,6 +1,6 @@
 {
   "name": "@ainative/gtm-mcp",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Google Tag Manager and Google Ads MCP server — manage GTM containers, Google Ads campaigns, budgets, conversions, negative placements, geo targeting, and auto-apply recommendations from AI agents",
   "type": "module",
   "bin": {
@@ -68,5 +68,6 @@
   "homepage": "https://github.com/AINative-Studio/ainative-gtm-mcp#readme",
   "bugs": {
     "url": "https://github.com/AINative-Studio/ainative-gtm-mcp/issues"
-  }
+  },
+  "mcpName": "io.github.ainative-studio/ainative-gtm-mcp"
 }

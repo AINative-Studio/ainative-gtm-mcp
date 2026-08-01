@@ -1,0 +1,40 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ainative-studio/ainative-gtm-mcp",
+  "description": "Full Google Ads + Analytics + Tag Manager lifecycle for AI agents: create Search/Display/Performance Max campaigns, swap bidding strategies, control bids, add ad extensions, import offline conversions, and manage GTM containers. 57 tools.",
+  "repository": {
+    "url": "https://github.com/AINative-Studio/ainative-gtm-mcp",
+    "source": "github"
+  },
+  "version": "0.4.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ainative/gtm-mcp",
+      "version": "0.4.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "GOOGLE_ADS_DEVELOPER_TOKEN",
+          "description": "Google Ads API developer token (required for Google Ads tools)",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "GOOGLE_ADS_CUSTOMER_ID",
+          "description": "Default Google Ads customer ID (10 digits, no dashes)",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "GTM_SERVICE_ACCOUNT_KEY_PATH",
+          "description": "Path to a Google Cloud service-account JSON key with Tag Manager API access",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
