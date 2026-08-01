@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.ainative-studio/ainative-gtm-mcp",
-  "description": "Full Google Ads + Analytics + Tag Manager lifecycle for AI agents: create Search/Display/Performance Max campaigns, swap bidding strategies, control bids, add ad extensions, import offline conversions, and manage GTM containers. 57 tools.",
+  "description": "Full Google Ads, Analytics & Tag Manager lifecycle MCP for AI agents — 57 tools.",
   "repository": {
     "url": "https://github.com/AINative-Studio/ainative-gtm-mcp",
     "source": "github"
